@@ -1,0 +1,36 @@
+
+
+table { 
+    width: 50%; 
+    border: 1px solid #100808; 
+    border-collapse: collapse; 
+} 
+
+th, 
+tr { 
+    padding: 10px; 
+    border: 2px solid black; 
+    align-items: center;
+
+} 
+
+.newRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 50%;
+}
+
+
+
+
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+
+}
+
