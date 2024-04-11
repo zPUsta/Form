@@ -30,6 +30,8 @@ form.addEventListener("submit", (event) => {
 
     const operationCell = document.createElement("td");
     const saveButton = document.createElement("button");
+    saveButton.style.backgroundColor = "#04AA6D";
+    saveButton.style.color = "white";
     saveButton.textContent = "Yadda saxla";
     saveButton.type = "button";
     saveButton.addEventListener("click", (event) => {
@@ -38,6 +40,8 @@ form.addEventListener("submit", (event) => {
     });
 
     const deleteButton = document.createElement("button");
+    deleteButton.style.backgroundColor = "#aa0404";
+    deleteButton.style.color = "white";
     deleteButton.textContent = "ləğv et";
     deleteButton.type = "button";
 
